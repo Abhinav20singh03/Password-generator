@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="heading"><h1>PASSWORD GENERATOR</h1></div>
+
+        <div id="password-copy">
+
+            <div id="pass">Password</div>
+            <button id="copy-icon"><img  id="copyimg" src="copy button.png"></button>
+
+        </div>
+
+        <div id="features">
+            <div id="firstline">
+            <div id="features-heading">Password Length</div>
+            <div id="range-number">0</div>
+            </div>
+            
+            <div id="range">
+                <input type="range" id="range" min="0" max="20" step="1">
+            </div>
+            <div id="checkers"> 
+                <input type="checkbox" id="option1">
+                <label for="vehicle1">Includes Uppercase Letters</label><br>
+                <input type="checkbox" id="option2">
+                <label for="vehicle2">Includes Lowercase Letters</label><br>
+                <input type="checkbox" id="option3">
+                <label for="vehicle3">Includes Numbers</label><br>
+                <input type="checkbox" id="option4">
+                <label for="vehicle3">Includes Symbols</label><br>
+            </div>
+            <div id="strength-box">
+                <div id="strength">Strength</div>
+                <div id="color"></div>
+            </div>
+
+            <div id="Generator-button"><button id="genbutton">Generate Password</button></div>
+
+        </div>
+
+    </div>
+    <script src="pssGene.js"></script>
+</body>
+</html>
