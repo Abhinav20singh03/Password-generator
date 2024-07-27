@@ -16,7 +16,7 @@ body{
   justify-content: space-between;
   align-items: center;
   background-color: 	#3e0151;
-  min-width:300px ;  
+  min-width:280px ;  
   height:40px ;
   border-radius: 10px;
   padding:8px;
@@ -25,7 +25,7 @@ body{
 }
 #features{
   background-color: 	#3e0151;
-  min-width:300px ;  
+  min-width:280px ;  
   border-radius: 10px;
   padding:8px;
   margin:8px
