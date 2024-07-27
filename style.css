@@ -3,7 +3,7 @@ body{
 }
 @font-face {
     font-family: poppins;
-    src: url(./Poppins-Regular.ttf);
+    src: url(Poppins-Regular.ttf);
 }
 #heading{
     margin:10px;
